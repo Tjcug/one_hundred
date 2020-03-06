@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover"> -->
+  <meta name="viewport" content="width=750 user-scalable=no"/>
+  <meta name="format-detection" content="telephone=no,email=no">
+  <link rel="dns-prefetch" href="//static.ws.126.net">
+  <title>这100件事，你完成了多少</title>
+<link href="./static/css/main.3c2a06d4.css" rel="stylesheet"></head>
+<body>
+<div class="common-container">
+    <div id="content">
+        <div class="save_canvas"></div>
+        <div id="main">
+            <div class="toEnd">
+                <div class="toEnd_text"></div>
+                <div class="toEnd_btn">
+                    <div class="btn_top"></div>
+                    <div class="btn_bg"></div>
+                </div>
+            </div>
+        </div>
+        <div id="select">
+          <div class="select_main">
+                <div class="scroll">
+                      <ul class="scroll_main">
+                      </ul>
+                      <div class="drag_tips"></div>
+                      <div class="not_select">你还没有选哦~</div>
+                </div>
+                <div class="hide_select">
+                    
+                </div>
+          </div>
+          <div class="select_top">
+            <div class="select_tips">
+                <div class="tips_text"></div>
+            </div>
+            <div class="select_area"> 
+                <div class="select_num_box">
+                  <div class="select_num">0</div>
+                  <p class="select_state">已完成</p>
+                  <div class="num_rect"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div id="end">
+            <div class="end_top">
+                <div class="top_logo"></div>
+                <div class="top_time"></div>
+            </div>
+            <div class="end_head">
+                <div class="head_img">
+                    <img src="./static/images/head_default.png">
+                </div>
+                <div class="head_name">
+                </div>
+                <div class="head_title"></div>
+            </div>  
+            <div class="end_middle">
+                <div class="finish_box">
+                    <div class="finish_bg">
+                        <div class="finish_front"></div>
+                        <div class="num"></div>
+                        <div class="num"></div>
+                        <div class="finish_back"></div>
+                    </div>
+                    <div class="finish_all"></div>
+                </div>
+                <div class="qrcode_box">
+                    <div class="qr_text"></div>
+                    <div class="qr_code"></div>
+                </div>
+            </div>
+            <div class="end_main">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="end_bottom">
+                <div class="bottom_text"></div>
+                <div class="bottom_continue"></div>
+                <div class="end_bottom_qr">
+                    <div class="qr_code2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="loading_img"></div>
+    </div>
+    <div class="touch_save_guide guide">长按保存你的结果页</div>
+    <div class="screen_save_guide guide">截图保存你的结果页</div>
+    <div id="loading">
+        <div class="loading_logo"></div>
+        <div class="circle_box">
+            <div class="circle_text"></div>
+            <div class="circle_inner"></div> 
+            <div class="circle_process">
+                <div class="wrapper right">
+                    <div class="circle rightcircle"></div>
+                </div>
+                <div class="wrapper left">
+                    <div class="circle leftcircle" id="leftcircle"></div>
+                </div>
+            </div>
+            <div class="loading_nums">
+                <div class="loading_num n1 first_num"></div>
+                <div class="loading_num"></div>
+                <div class="loading_num"></div>
+                <div class="percent_icon"></div>
+            </div>
+        </div>
+    </div>
+    <div id="first">
+        <div class="right">
+            <div class="right_scroll">
+                <div class="scroll1 scroll_img"><img src="./static/images/scroll.jpg"></div>
+                <div class="scroll2 scroll_img"><img src="./static/images/scroll.jpg"></div>
+            </div>
+        </div>
+        <div class="left">
+            <div class="left_scroll">
+                <div class="scroll1 scroll_img"><img src="./static/images/scroll.jpg"></div>
+                <div class="scroll2 scroll_img"><img src="./static/images/scroll.jpg"></div>
+            </div>
+        </div>
+        <div class="stage_box">
+            <div class="stage2">
+                <div class="s2_title"></div>
+                <div class="input_box">
+                    <!-- <input id="input" placeholder="请输入你的名字"></input> -->
+                    <div class="input_bg"><div class="input_circle"></div></div>
+                    <input id="input">
+                    <div class="input_line"></div>
+                    <div class="alert wrong_name"><i class="not_icon"></i>你好像不叫这个名字哦，请重新输入</div>
+                    <div class="alert long_name"><i class="not_icon"></i>最多6个字哦，请重新输入</div>
+                    <div class="alert no_name"><i class="not_icon"></i>请输入名字</div>
+                    <!-- <div class="confirm"> -->
+                        <div class="confirm_bg"></div>
+                        <div class="confirm_top"></div>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="stage1">
+                <div class="first_logo"></div>
+                <div class="first_middle"> 
+                    <div class="first_title"></div>
+                    <div class="first_text"></div>
+                    <div class="first_eye">
+                        <div class="eye"></div>
+                        <div class="eye_outline"></div>
+                    </div>
+                </div>
+                <div class="noise">
+                </div>
+                <div class="newsapp_btn"></div>
+                <div class="slide">
+                    <div class="slide_line">
+                        <div class="slide_text"></div>
+                        <div class="slide_line_bg"></div>
+                    </div>
+                    <div class="slide_circle circle_ani">
+                        <div class="slide_circle2"></div>
+                        <div class="slide_circle1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tap_save"></div>
+    <div class="toEnd_mask">
+        <div class="mask1"></div>
+        <div class="mask2"></div>
+        <div class="mask3">
+            <div class="mask_text">
+                人生必做的100件事<br>你完成了0件哦～
+            </div>
+            <div class="mask_line">
+                <div class="line_bg"></div>
+                <div class="line_cover"></div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="click" src="./static/click.mp3"></audio>
+    <audio id="text" src="./static/text.mp3"></audio>
+    <audio id="bgm" src="./static/bgm.mp3" loop></audio>
+    <!-- <div id="debug"></div> -->
+</div>
+<!-- zepto -->
+<script src="./static/lib/pixi.js"></script>
+<script src="./static/lib/qrcode.js"></script>
+<script type="text/javascript" src="./static/lib/Animate.js?"></script>
+<script type="text/javascript" src="./static/lib/Scroller.js?"></script>
+<script src="./static/lib/zepto.min.js"></script>
+<script type="text/javascript" src="./static/lib/newsapp-weixin-login.min.js"></script>
+<script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={1:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="https://static.ws.126.net/163/f2e/news/one_hundred/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([]);</script>
+<script type="text/javascript" src="./static/js/vendors.add788f2.js"></script>
+<script type="text/javascript" src="./static/js/main.b8009180.js" async></script></body>
+</html>
